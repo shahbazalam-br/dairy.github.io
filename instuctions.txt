@@ -1,0 +1,25 @@
+For the Assignment Xampp server is bieng used.
+
+     #	Database name: quadb
+
+     #	Table name   : quadb	
+
+     #	Query: 
+		create table quadb (
+		id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+		username VARCHAR( 255 ) NOT NULL ,
+		password VARCHAR( 255 ) NOT NULL ,
+		gender VARCHAR( 255 ),
+		email VARCHAR( 255 ),
+		phone int(10),
+		dairy text
+		);
+
+
+Thank You 
+
+Created by 
+
+Shah Baz Alam
+	
+	

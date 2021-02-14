@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  <style>body{
+    background-image: url("background.png");
+}
+</style>
+</head>
+<body>
+ 
+    <div class="container" id="container">
+        
+
+ <form action="insert.php" method="POST" class="form">
+    <br>
+    <h1>Sign Up</h1>
+
+    <div class="social-container">
+            
+        <a href="#" class="icoRss" title="Rss" class="social-network social-circle"><i class="fa fa-rss"></i></a></li>
+        <a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        <a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+        <a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+        <a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+      
+          </div>
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password" name="password" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td> <br>
+    <td>
+     <input type="radio" name="gender" value="m" required >Male</input>
+          <input type="radio" name="gender" value="f" required>Female</input>
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td>Phone no :</td>
+    <td>
+    
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+    <td>
+        <br>
+        <button type="submit" name="submit" value=" Submit " style="position:absolute;left: 45%;">Submit</button>
+   </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <p>Already have an account? <a href="index.php">Login 
+ </form>
+ 
+</div>
+
+</body>
+</html>
