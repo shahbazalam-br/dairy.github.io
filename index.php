@@ -27,7 +27,7 @@ header("location: profile.php"); // Redirecting To Profile Page
 <input id="password" name="password" placeholder="**********" type="password"><br><br>
 <input name="submit" type="submit" value=" Login ">
 <span><?php echo $error; ?></span>
-<p>Don't have an account? <a href="form.html">Sign up now</a>.</p>
+<p>Don't have an account? <a href="index.html">Sign up now</a>.</p>
 </form>
 </div>
 -->
